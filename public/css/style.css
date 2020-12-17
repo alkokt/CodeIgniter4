@@ -1,0 +1,123 @@
+
+body{
+	font-family:Rockwell;
+	color : #191970;
+}
+.sampul{
+    width: 70px;
+}
+
+.table-hover > tbody > tr > *{
+    vertical-align: middle;
+}
+table{
+	text-align: center;
+}
+#satu{
+	color: white;
+
+}
+
+.table-sm{
+	background-color: #191970;	
+}
+
+nav{
+	background-color: #191970;
+}
+.welcome{
+	text-align: center;
+}
+
+h2,h5{
+	text-align: center;
+	margin: 20px;
+}
+a{
+	text-align: left;
+}
+
+div .btn{
+	text-align: center;
+}
+
+.btn{
+	border-radius: 5px;
+}
+
+#back{
+	float: right;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+.nav-link:hover{
+	background-color: black;
+}
+
+.card{
+	border-color: #191970;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#dk{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+#tab{
+	border-radius: 0px;
+	
+}
+
+.navbar-nav{
+    list-style-type: none;
+    display: flex;
+}
+
+#login{
+	position: relative;
+	margin-left: 650px;
+	color: #EEE;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 12px;
+    /* margin: 0 18px; */
+}
+#logout{
+	position: relative;
+	margin-left: 470px;
+	color: #EEE;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 12px;
+    /* margin: 0 18px; */
+}
+
+#tab{
+    position: relative;
+    color: #EEE;
+    letter-spacing: 2px;
+    text-decoration: none;
+    padding: 12px;
+    margin: 0 18px;
+}
+
+#tab::before,#login::before,#logout::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    transition: width 0.2s ease-out;
+    background-color: red;
+}
+
+#tab:hover::before,#login:hover::before,#logout:hover::before{
+    width: 100%;
+}
+
+
